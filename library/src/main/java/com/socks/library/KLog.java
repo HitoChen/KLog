@@ -216,7 +216,7 @@ public final class KLog {
         BaseLog.printDefault(D, tag, headString + msg);
     }
 
-    private static void printLog(int type, String tagStr, Object... objects) {
+    public static void printLog(int type, String tagStr, Object... objects) {
 
         if (!IS_SHOW_LOG) {
             return;
